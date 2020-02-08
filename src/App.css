@@ -1,0 +1,15 @@
+.items {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    list-style-type: none;
+    
+}
+.dropdownMenu {
+    list-style-type: none;
+    visibility: hidden;
+}
+.menu:hover .dropdownMenu {
+    visibility: visible;
+}
